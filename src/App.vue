@@ -15,7 +15,7 @@ const resultadoSoma = computed(() => {
     case 'multi':
       return num1 * num2;
     case 'divi':
-      return num2 !== 0 ? num1 / num2 : 'Erro: Divisão por zero';
+      return num2 !== 0 ? num1 / num2 : 'Divisão por zero não pode :)';
     case 'soma':
     default:
       return num1 + num2;
